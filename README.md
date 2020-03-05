@@ -54,14 +54,17 @@ to point to whatever path you wish to store your host file in.
 **Add a host**  
 `M-x add-host`  
 Then enter the name, user, and hostname you want to add to the list of hosts.  
+
 **Open remote shell**  
 `M-x remote-shell`  
 Then select the name of the remote host you wish to open a remote shell on using the left and right arrow keys.  
 Optionally, you can run:  
 `M-x remote-shell <name>`  
 to directly open a remote shell instead of having to choose from an interactive list.  
+
 **Run Remote command**  
 `M-x remote-shell-command`  
 Then select the host to run the command on and enter the command.  
+
 **Kill all remote shells**  
 `M-x kill-shells`  
